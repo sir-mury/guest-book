@@ -57,7 +57,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
   return (
     <main>
       <header>
-        <h1>NEAR Guest Book</h1>
+        <h1>ADAVIZE Guest Book</h1>
         { currentUser
           ? <button onClick={signOut}>Log out</button>
           : <button onClick={signIn}>Log in</button>
